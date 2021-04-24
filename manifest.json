@@ -9,6 +9,10 @@
       }
     ],
 
+    "browser_action": {
+        "default_title": "Blokd"
+    },
+
     "app": {
         "urls": [
           "http://google.com/"
