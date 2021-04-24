@@ -2,8 +2,9 @@ document.addEventListener('DOMContentLoaded',function(){
     document.querySelector('button').addEventListener('click',onclick,false)
 
     function onclick(){
-        window.setTimeout(sendAfterTimeout,3000)
-        //sendAfterTimeout()
+        //window.setTimeout(sendAfterTimeout,3000)
+        sendAfterTimeout()
+        //alertScreenTime()
     }
 
     function sendAfterTimeout(){
@@ -13,8 +14,8 @@ document.addEventListener('DOMContentLoaded',function(){
     }
 
     function alertScreenTime(){
-        const screenTime = document.querySelector('h1')
-        screenTime.textContent = 'this is your screentime'
+        //const screenTime = document.querySelector('h1')
+        //screenTime.textContent = 'this is your screentime'
 
     }
 })
