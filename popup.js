@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded',function(){
     }
 
     function alertScreenTime(){
-        
+        const screenTime = document.querySelector('h1')
+        screenTime.textContent = 'this is your screentime'
 
     }
 })
