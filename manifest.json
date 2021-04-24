@@ -13,14 +13,14 @@
         "default_title": "Blokd"
     },
 
-    "app": {
-        "urls": [
-          "http://google.com/"
-        ],
-        "launch": {
-          "web_url": "http://google.com/"
-        }
-      }
+    // "app": {
+    //     "urls": [
+    //       "http://google.com/"
+    //     ],
+    //     "launch": {
+    //       "web_url": "http://google.com/"
+    //     }
+    //   }
 
     
   }
