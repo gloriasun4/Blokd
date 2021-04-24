@@ -7,5 +7,16 @@
         "matches": ["<all_urls>"],
         "js": ["content.js"]
       }
-    ]
+    ],
+
+    "app": {
+        "urls": [
+          "http://google.com/"
+        ],
+        "launch": {
+          "web_url": "http://google.com/"
+        }
+      }
+
+    
   }
