@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Blokd</title>
 </head>
 <body>
+  <h2>Time Left: </h2>
   
   <!-- <script src="popup.js" charset="utf-8"></script> -->
   <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
+<p id="demo" style="color:yellow;"></p>
 
 <script>
+//TODO set original color to white
+
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 
@@ -33,14 +36,23 @@ var x = setInterval(function() {
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
+  //TODO If count down reaches 5 minutes, change color to yellow
+
+  //TODO If count down reaches 1 minutes, change color to red
+
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Time's up!";
   }
 }, 1000);
+
+//TODO add random meme generation
+
 </script>
-<button type="button">Read More</button>
+<!-- TODO need website link <a href="">Read More</a> -->
+
+<br>
 <button type="button">Settings</button>
 </body>
 </html>
