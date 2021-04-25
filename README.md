@@ -24,7 +24,7 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 ##### Resources Page
 ![Resources](website_resources.png)
 
-##### Check out our [website](blokd.tech)
+##### Check out our [website](www.blokd.tech)
 
 #### Here's how the Extension Alerts look?
 
