@@ -10,7 +10,7 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 
 ## How Does Blokd look?
 
-#### Here's how the Website looks?
+#### Here's How the Website Looks
 
 ##### Landing Page
 ![LandingPage](website_landingpage.png)
@@ -26,15 +26,15 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 
 ##### Check out our website at `www.blokd.tech`
 
-#### Here's how the Extension Alerts look?
+#### Here's How the Extension Alerts Look
 
 ##### Alerts
 
 ##### Pop-Up
 
-# How to add the chrome extension?
+# How to Add Chrome Extension:
 1. Clone this repository: `git clone https://github.com/gloriasun4/Blokd`
-2. Add it to your chrome extensions on `chrome://extensions/` with developer mode on
+2. Add it to your chrome extensions on `chrome://extensions/` with developer mode toggled ON
 3. Select websites you want to limit times of. Default time limit is 1 hour total on all the websites you choose.
 4. Do your work normally and if you go over your time limit, you will be blokd by some of your favorite memes!
 
