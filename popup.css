@@ -1,0 +1,18 @@
+body {
+    background-color:  #063852;
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 10px;
+  }
+  h1 {
+    color: blue;
+    /* font-family: */
+    font-size: 300%;
+  }
+  h2 {
+    color: #1181bd;
+  }
+  p {
+    color: white;
+    font-size: 160%;
+  }
