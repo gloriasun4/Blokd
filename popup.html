@@ -14,21 +14,11 @@
 <h2 id="demo"></h2>
 
 <script>
-//TODO set original color to white
-/*
-Colors: 
-dark navy - #011A27
-blueberry - #063852
-tangerine - #F0810F
-daffodil - #E6DF44
-Light blue: 1181bd
-Dark blue: 05283b
-*/
-
-
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+var countDownDate = new Date();
+countDownDate.setHours(countDownDate.getHours() + 1);
+var countDownTime = countDownDate.getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -37,7 +27,7 @@ var x = setInterval(function() {
   var now = new Date().getTime();
 
   // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+  var distance = countDownTime - now;
 
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -46,7 +36,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("demo").innerHTML = hours + "h "
   + minutes + "m " + seconds + "s ";
 
   //TODO If count down reaches 5 minutes, change color to yellow
@@ -61,13 +51,14 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Time's up!";
+    //document.getElementById("demo").innerText =
   }
 }, 1000);
 
 //TODO add random meme generation
 
 </script>
-<!-- TODO need website link <a href="">Read More</a> -->
+
 <br>
 <a href="settings.html">Settings</a>
 </body>
