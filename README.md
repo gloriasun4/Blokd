@@ -40,7 +40,7 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 
 ### Contributors
 This project was primarily built by the following people:
-- [Tiki Djovic](https://www.linkedin.com/in/tijana-djokic/)
+- [Tiki Djokic](https://www.linkedin.com/in/tijana-djokic/)
 - [Wamia Said](https://www.linkedin.com/in/wamiasaid/)
 - [Gloria Sun](https://www.linkedin.com/in/gloriasun4/)
 - [Esha Tulsian](https://www.linkedin.com/in/esha-tulsian-076b731a7)
