@@ -10,9 +10,14 @@ h1 {
   font-size: 300%;
 }
 h2 {
-  color: #1181bd;
+  color: white;
   font-family: Helvetica;
   font-size: 250%;
+}
+h3 {
+  color: #E6DF44;
+  font-family: Helvetica;
+  font-size: 200%;
 }
 p {
   color: white;
@@ -20,16 +25,16 @@ p {
   font-size: 160%;
 }
 a:link, a:visited {
-  background-color: #f44336;
+  background-color: #012031;
   color: white;
-  padding: 15px 25px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: #011A27;
 }
 
 img {
