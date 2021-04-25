@@ -33,6 +33,9 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 ##### Pop-Up
 ![Popup](popup.png)
 
+## What's Next for Blokd
+Something we would have loved to add to Blokd is the ability to track the individual times spent on each website. This way, we could order the websites by which category seems to be most distracting for the user and add in other features to minimize the distraction these websites cause.
+
 # How to Add Chrome Extension:
 1. Clone this repository: `git clone https://github.com/gloriasun4/Blokd`
 2. Add it to your chrome extensions on `chrome://extensions/` with developer mode toggled ON
