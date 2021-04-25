@@ -31,6 +31,7 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 ![Alerts](alerts.png)
 
 ##### Pop-Up
+![Popup](popup.png)
 
 # How to Add Chrome Extension:
 1. Clone this repository: `git clone https://github.com/gloriasun4/Blokd`
