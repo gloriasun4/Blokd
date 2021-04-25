@@ -8,9 +8,7 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 
 
 
-## How Does Blokd look?
-
-#### Here's How the Website Looks
+## How Does Blokd Look?
 
 ##### Landing Page
 ![LandingPage](website_landingpage.png)
