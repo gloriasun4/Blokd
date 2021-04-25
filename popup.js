@@ -11,8 +11,8 @@ var alarmClock = {
     },
 
     setup: function() {
-        var a = document.getElementById('btn1');
-        tabs.onCreated.addListener(alarmClock.onHandler);
+        //var a = document.getElementById('btn1');
+        chrome.tabs.onCreated.addListener(tab, alarmClock.onHandler);
 
 
         // var a = document.getElementById('alarmOn');

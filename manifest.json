@@ -24,6 +24,6 @@
     },
 
     "permissions": [
-        "storage", "alarms"
+        "storage", "alarms", "tabs"
       ]
   }
