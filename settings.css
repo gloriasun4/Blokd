@@ -14,8 +14,25 @@ body {
     font-family: Helvetica;
     font-size: 250%;
   }
+  h3 {
+    color: #1181bd;
+    font-family: Helvetica;
+    font-size: 200%;
+  }
   p {
     color: white;
     font-family: Helvetica;
     font-size: 160%;
+  }
+  a:link, a:visited {
+    background-color: #012031;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #011A27;
   }
