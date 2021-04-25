@@ -24,6 +24,6 @@
     },
 
     "permissions": [
-        "storage", "alarms", "tabs","webRequest", "webRequestBlocking", "<all_urls>"
+        "storage", "alarms", "tabs", "<all_urls>"
       ]
   }
