@@ -2,7 +2,7 @@
 //     console.log("Got an alarm!", alarm);
 // });
 
-var facts = ['The average person could\'ve typed 2400 words in the hour you wasted',
+var facts = ['Get to work, the average person could\'ve typed 2400 words in the hour you wasted',
 'Stop wasting time, you could\'ve read 13,500 words in that last hour',
 'You could\'ve burned at least 210 calories by walking in the last hour, lazy bum',
 'Disgraceful, you could\'ve made 12 bowls of instant ramen in the last hour',
