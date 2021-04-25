@@ -6,17 +6,31 @@ Blokd aims to help students suffering from online school fatigue by minimizing o
 ### Our Inspiration
 A little over a year ago, life as we knew it came to a drastic halt as the COVID-19 pandemic began to spread. All daily activities, most notably university classes and work, shifted from being in-person to being totally online. With this shift came the need to adapt to staring at screens all day, which limits one’s attention span and can quickly become tiresome. That is why we came up with Blokd, a Chrome extension that keeps you on track when you stray from the work you’re supposed to be doing. Blokd keeps track of the time you spend on distracting websites such as YouTube, Netflix, and Hulu and pops up a meme reminding you to stay on track when your time limit for these websites is reached. We built our extension from scratch by looking at tutorials online and built our accompanying informational website by building upon a bootstrap. Throughout the course of this project, we improved upon our Javascript, HTML, and CSS abilities, since we are all beginners at those languages, and figured out how to collaborate effectively via GitHub. We faced many challenges over the course of these 24 hours, namely having to work through bugs in our code that we were unfamiliar with and getting the Chrome extension to do what we envisioned for it to do.
 
-## Check out our [website](blokd.tech)
 
-### How Does Blokd look?
+
+## How Does Blokd look?
 
 #### Here's how the Website looks?
 
+##### Landing Page
+![LandingPage](website_landingpage.png)
+
+##### Features Page
+![Features](website_features.png)
+
+##### Study Techniques Page
+![Techniques](website_techniques.png)
+
+##### Resources Page
+![Resources](website_resources.png)
+
+##### Check out our [website](blokd.tech)
 
 #### Here's how the Extension Alerts look?
 
+##### Alerts
 
-##
+##### Pop-Up
 
 # How to add the chrome extension?
 1. Clone this repository: `git clone https://github.com/gloriasun4/Blokd`
