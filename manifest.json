@@ -2,28 +2,10 @@
     "name": "Blokd",
     "version": "1.0",
     "manifest_version": 2,
-    "icons":{
-        "512": "blokdlogo-01.png"
-    },
-
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
         "js": ["content.js"]
       }
-    ],
-
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_title": "Blokd"
-    },
-    
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
-
-    "permissions": [
-        "storage", "alarms", "tabs", "<all_urls>"
-      ]
+    ]
   }
