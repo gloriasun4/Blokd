@@ -28,6 +28,7 @@ A little over a year ago, life as we knew it came to a drastic halt as the COVID
 #### Here's How the Extension Alerts Look
 
 ##### Alerts
+![Alerts](alerts.png)
 
 ##### Pop-Up
 
