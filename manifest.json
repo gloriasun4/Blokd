@@ -3,7 +3,7 @@
     "version": "1.0",
     "manifest_version": 2,
     "icons":{
-        "128": "blokdlogo-01.png"
+        "512": "blokdlogo-01.png"
     },
 
     "content_scripts": [
@@ -18,6 +18,11 @@
         "default_title": "Blokd"
     },
     
+    "background": {
+      "scripts": ["eventPage.js"],
+      "persistent": false
+    },
+
     "permissions": [
         "storage", "alarms"
       ]
