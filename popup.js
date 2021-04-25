@@ -12,7 +12,7 @@ var alarmClock = {
 
     setup: function() {
         var a = document.getElementById('btn1');
-        a.addEventListener('click',alarmClock.onHandler);
+        tabs.onCreated.addListener(alarmClock.onHandler);
 
 
         // var a = document.getElementById('alarmOn');
