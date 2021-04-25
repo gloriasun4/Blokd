@@ -5,6 +5,7 @@ var totalTimeLeft;
 var start;
  
 function setup() {
+    totalTimeLeft = 60000;
     this.addEventListener("mousemove", resetTimer, false);
     this.addEventListener("mousedown", resetTimer, false);
     this.addEventListener("keypress", resetTimer, false);
@@ -12,6 +13,10 @@ function setup() {
     this.addEventListener("mousewheel", resetTimer, false);
     this.addEventListener("touchmove", resetTimer, false);
     this.addEventListener("MSPointerMove", resetTimer, false);
+
+    // chrome.tabs.onActivated.addListener(function(activeInfo){
+    //     checkURL();
+    // }) 
  
     startTimer();
 }
@@ -37,15 +42,23 @@ function goInactive() {
  
 function goActive() {
     // do something
-    totalTimeLeft = totalTimeLeft - (start - getTime())
-
-    if(totalTimeLeft<=0)
-        blockWebsite();
+    checkURL()
 
     chrome.runtime.sendMessage({ userActive: true });
     startTimer();
 }
 
-function block(){
+function checkURL(){
+    totalTimeLeft = totalTimeLeft - (getTime() - start);
 
+    if(totalTimeLeft<=0){
+        blockWebsite();
+    }
+    
+}
+
+function blockWebsite(){
+    
+        chrome.alarms.create("myAlarm", {delayInMinutes: 0.5, periodInMinutes: 0.5} ); // annoying alarm will go off every minute
+                window.close();
 }
