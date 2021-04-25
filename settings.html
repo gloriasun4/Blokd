@@ -7,6 +7,22 @@
 <body>
     <h3>Settings</h3>
     <a href="popup.html">Back</a>
+    <br>
+    <br>
+    <div class="slidecontainer">
+        <p>Hours: <span id="demo"></span></p>
+        <input type="range" min="0" max="8" value="1" class="slider" id="myRange">
+    </div>
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+        </script>
+    <br>
     <form style="color:white;">
         <input type="checkbox" id="accept" checked> Youtube
         <br>
