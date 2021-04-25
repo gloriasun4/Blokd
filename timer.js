@@ -1,7 +1,8 @@
 //retrieved from: https://www.kirupa.com/html5/detecting_if_the_user_is_idle_or_inactive.htm
 
 var timeoutID;
-var totalTime;
+var totalTimeLeft;
+var start;
  
 function setup() {
     this.addEventListener("mousemove", resetTimer, false);
@@ -17,9 +18,9 @@ function setup() {
 setup();
  
 function startTimer() {
-    // wait 8 seconds before calling goInactive
-    now = date()
-    timeoutID = window.setTimeout(goInactive, 8000);
+    // wait 2 seconds before calling goInactive
+    start = getTime();
+    timeoutID = window.setTimeout(goInactive, 2000);
 }
  
 function resetTimer(e) {
@@ -31,16 +32,20 @@ function resetTimer(e) {
 function goInactive() {
     // do something
     chrome.runtime.sendMessage({ userActive: false });
+    resetTimer();
 }
  
 function goActive() {
     // do something
-    
+    totalTimeLeft = totalTimeLeft - (start - getTime())
+
+    if(totalTimeLeft<=0)
+        blockWebsite();
 
     chrome.runtime.sendMessage({ userActive: true });
     startTimer();
 }
 
-function checkURL(){
+function block(){
 
 }
