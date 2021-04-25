@@ -4,4 +4,9 @@
 
 chrome.alarms.onAlarm.addListener(function(alarm) {
     alert("Beep");
+    chrome.webRequest.onBeforeRequest.addListener(
+        function(details) { return {cancel: true}; },
+        { urls: ["*://*.google.com/*"] },
+        ["blocking"]
+      );
   });
