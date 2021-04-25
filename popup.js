@@ -2,8 +2,13 @@ document.addEventListener('DOMContentLoaded',function(){
     document.querySelector('button').addEventListener('click',onclick,false)
 
     function onclick(){
+        chrome.alarms.create(
+            "timer", {periodInMinutes: 1}
+        )
+        
+        
         //window.setTimeout(sendAfterTimeout,3000)
-        sendAfterTimeout()
+        //sendAfterTimeout()
         //alertScreenTime()
     }
 
